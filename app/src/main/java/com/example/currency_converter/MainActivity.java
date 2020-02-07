@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             convert = convert * 0.77;
             str = convert.toString();
         } catch(Error e) {
+            onRestart();
         }
 //        Toast.makeText(MainActivity.this, myTextField.getText().toString(), Toast.LENGTH_LONG).show();
 
